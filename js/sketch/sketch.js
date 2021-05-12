@@ -26,6 +26,9 @@ var scatch = function (canvas) {
   };
 
   canvas.setup = function () {
+    //$ is just referring to the canvas container div. In general, it is just used in js
+    //as an identifier in place of _ etc. For ex: We can write var $name = "" instead of
+    //var _name = ""
     $("#canvas-container")
       .contents()
       .filter(function () {
